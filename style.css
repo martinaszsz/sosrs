@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Dosis:wght@200..800&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 1);
+}
+
+div#interface {
+    width: 1310px;
+    margin-top: none;
+}
+
+header#cabecalho {
+    height: 290px;
+    background-color: rgba(122, 9, 9, 1);
+    margin: -30px;
+    margin-right: -48px;
+    margin-bottom: 5px;
+    background-image: url(../imagens/poa2.jpg);
+    background-size:auto;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.582);
+
+}
+
+
+header#cabecalho h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30pt;
+    color: #ffffff;
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.753);
+    padding: 80px;
+    padding-bottom: 165px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.637);
+   
+}
+
+header#cabecalho h2 {
+    font-family: "Baloo Bhai 2", sans-serif;
+    color: #ffffff;
+    font-size: 13pt;
+    margin-top:-160px;
+    margin-left: 120px;
+    margin-right: 978px;
+    padding: 3px 15px 3px;
+    background-color: rgb(4, 5, 4);
+    border: 5px solid rgb(4, 5, 4);
+    border-radius: 20px;
+    text-shadow:  2px 2px 2px rgba(0, 0, 0, 0.514); 
+    font-weight: lighter;
+    
+    
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 490px;
+    top: 40px;
+    right: 5px;
+    color: #ffffff;
+    background-color: none;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.925);
+    align-items: center;
+    justify-content: center;
+}
+
+nav#menu li {
+    display: inline-block;
+    padding: 2px 5px;
+    margin-left: 12px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+  
+}
+nav#menu a {
+  font-size: 18px;
+  font-family: 'Dosis', sans-serif;
+  text-decoration: none;
+  border-bottom: 4px solid rgb(243, 181, 9);
+  align-items: center;
+  
+}
+
+nav#menu a:hover{
+    color: rgb(255, 166, 0);
+}
+
+section#corpo {
+    display: block;
+    width: 800px;
+    float: left;
+    padding:30px 30px 20px;
+    box-shadow: 0px 0px 5px rgb(255, 251, 4);
+    margin-left: 220px;
+    margin-top: 10px;
+    color: #ffffff;
+    border-radius: 15px; 
+    background-color: rgba(0, 0, 0, 0.829);
+    column-count: 2;
+}
+
+section#corpo-full {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    padding:40px;
+    padding-top: 10px;
+    column-count: 2;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+    
+}
+section#corpo-full ul {
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 1px;
+    padding: 10px 40px 10px;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: #ffffff;
+    width: 500px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 7px rgba(241, 168, 10, 0.918);
+    
+}
+section#corpo-full li {
+    margin-bottom: 13px;
+    margin-top: 5px;
+    
+  
+}
+
+section#corpo-full h2 {
+    text-align: center;
+    padding-top: 20px;
+    background: none;
+   
+}
+
+section#corpo-full h3 {
+    text-align: center;
+    background-color: rgb(255, 196, 0);
+    padding: 15px 20px 15px;
+    margin-top: 15px;
+    border-radius: 30px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.432);
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.37);
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 20px;
+}
+
+b {
+    font-size: 12pt;
+    text-align: left;
+  
+}
+
+p {
+    text-align: center;
+    font-size: 12pt;
+    font-style: italic;
+    margin-left: 0px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+section#corpo button {
+    background-color: rgb(255, 196, 0);
+    padding: 20px 30px 20px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px rgba(22, 21, 21, 0.637);
+    font-size: 17px;
+    margin-right: 13px;
+    margin-top: -10px;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
+}
+
+section#corpo button:hover{
+    box-shadow: 0px 0px 5px rgb(252, 235, 7);
+    cursor: pointer;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0); 
+}
+
+section#corpo h2 {
+    font-size: 25px;
+    margin-bottom: -5px;
+    margin-top: 1px;
+    font-family: "Baloo Bhai 2", sans-serif;
+}
+
+li {
+    font-family: "Baloo Bhai 2", sans-serif;
+}
